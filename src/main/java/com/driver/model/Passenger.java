@@ -13,8 +13,6 @@ import java.util.List;
 @Entity
 @Table(name = "passenger")
 public class Passenger {
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int passengerId;
